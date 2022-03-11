@@ -1,16 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-background: #291248;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src:
+    url('../public/fonts/Avenir\ Next\ LT\ W02\ Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AvenirNext-Bold';
+  src: url('../public/fonts/AvenirNext-Bold.ttf') format('truetype');
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'AvenirNext-Bold', 'Avenir Next';
+  background-color: var(--color-background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+h2 {
+  font-family: 'Avenir Next';
 }
