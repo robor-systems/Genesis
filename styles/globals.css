@@ -7,21 +7,21 @@
 }
 
 @font-face {
-  font-family: 'Avenir Next';
-  src:
-    url('../public/fonts/Avenir\ Next\ LT\ W02\ Regular.ttf') format('truetype');
+  font-family: "Avenir Next";
+  src: url("../public/fonts/Avenir\ Next\ LT\ W02\ Regular.ttf")
+    format("truetype");
 }
 
 @font-face {
-  font-family: 'AvenirNext-Bold';
-  src: url('../public/fonts/AvenirNext-Bold.ttf') format('truetype');
+  font-family: "AvenirNext-Bold";
+  src: url("../public/fonts/AvenirNext-Bold.ttf") format("truetype");
 }
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'AvenirNext-Bold', 'Avenir Next';
+  font-family: "AvenirNext-Bold", "Avenir Next";
   background-color: var(--color-background);
   display: flex;
   justify-content: center;
@@ -29,5 +29,9 @@ body {
 }
 
 h2 {
-  font-family: 'Avenir Next';
+  font-family: "Avenir Next";
+}
+
+video {
+  pointer-events: none;
 }
